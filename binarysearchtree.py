@@ -59,9 +59,13 @@ class BST:
                 return currentNode
         return False
 
-
-bst = BST()
-
-
 if __name__=="__main__":
     bst = BST()
+    bst.insert(9)
+    bst.insert(4)
+    bst.insert(20)
+    bst.insert(6)
+    bst.insert(1)
+    bst.insert(15)
+    bst.insert(10)
+    print(bst.tree.left.value)
